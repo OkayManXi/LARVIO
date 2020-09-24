@@ -125,7 +125,7 @@ bool ImageProcessor::initialize() {
     return true;
 }
 
-
+//图像处理
 // Process current img msg and return the feature msg.
 bool ImageProcessor::processImage(const ImageDataPtr& msg,
         const std::vector<ImuData>& imu_msg_buffer, MonoCameraMeasurementPtr features) {
@@ -218,11 +218,12 @@ bool ImageProcessor::processImage(const ImageDataPtr& msg,
     return haveFeatures;
 }
 
-
+//imu积分
 void ImageProcessor::integrateImuData(Matx33f& cam_R_p2c,
         const std::vector<ImuData>& imu_msg_buffer) {
     // Find the start and the end limit within the imu msg buffer.
     auto begin_iter = imu_msg_buffer.begin();
+    //begin在上一帧前0.0049s以内
     while (begin_iter != imu_msg_buffer.end()) {
     if (begin_iter->timeStampToSec-
             prev_img_ptr->timeStampToSec < -0.0049)
@@ -232,6 +233,7 @@ void ImageProcessor::integrateImuData(Matx33f& cam_R_p2c,
     }
 
     auto end_iter = begin_iter;
+    //end在当前帧后0.0049s以内
     while (end_iter != imu_msg_buffer.end()) {
     if (end_iter->timeStampToSec-
             curr_img_ptr->timeStampToSec < 0.0049)
@@ -239,7 +241,7 @@ void ImageProcessor::integrateImuData(Matx33f& cam_R_p2c,
     else
         break;
     }
-
+    //计算角速度均值
     // Compute the mean angular velocity in the IMU frame.
     Vec3f mean_ang_vel(0.0, 0.0, 0.0);
     for (auto iter = begin_iter; iter < end_iter; ++iter)
@@ -251,6 +253,7 @@ void ImageProcessor::integrateImuData(Matx33f& cam_R_p2c,
 
     // Transform the mean angular velocity from the IMU
     // frame to the cam0 and cam1 frames.
+    //imu坐标系转换到相机坐标系
     Vec3f cam_mean_ang_vel = R_cam_imu.t() * mean_ang_vel;
 
     // Compute the relative rotation.
@@ -258,11 +261,11 @@ void ImageProcessor::integrateImuData(Matx33f& cam_R_p2c,
         prev_img_ptr->timeStampToSec;
     Rodrigues(cam_mean_ang_vel*dtime, cam_R_p2c);
     cam_R_p2c = cam_R_p2c.t();
-
+    //cam_R_p2c是输出的imu计算的相机旋转矩阵
     return;
 }
 
-
+//检测上一帧中的特征
 void ImageProcessor::predictFeatureTracking(
     const vector<cv::Point2f>& input_pts,
     const cv::Matx33f& R_p_c,
@@ -280,9 +283,11 @@ void ImageProcessor::predictFeatureTracking(
         intrinsics[0], 0.0, intrinsics[2],
         0.0, intrinsics[1], intrinsics[3],
         0.0, 0.0, 1.0);
+    //将上一帧中的特这点坐标通过相机内参和相机旋转矩阵映射到当前帧中（像素坐标）
     cv::Matx33f H = K * R_p_c * K.inv();  
 
     for (int i = 0; i < input_pts.size(); ++i) {
+        //补成齐次坐标
         cv::Vec3f p1(input_pts[i].x, input_pts[i].y, 1.0f);
         cv::Vec3f p2 = H * p1;
         compensated_pts[i].x = p2[0] / p2[2];
@@ -351,10 +356,10 @@ bool ImageProcessor::initializeFirstFrame() {
         return false;
 }
 
-
+//初始化第一个图特征
 bool ImageProcessor::initializeFirstFeatures(
         const std::vector<ImuData>& imu_msg_buffer) {
-
+    //通过先前帧和imu推算当前旋转
     // Integrate gyro data to get a guess of ratation between current and previous image
     integrateImuData(R_Prev2Curr, imu_msg_buffer);
 
@@ -506,6 +511,7 @@ bool ImageProcessor::initializeFirstFeatures(
             prev_pts_inlier, ransac_inliers, prev_pts_matched);
     removeUnmarkedElements(
             curr_pts_inlier, ransac_inliers, curr_pts_matched);
+    //ransac局外点
     removeUnmarkedElements(
             desc_first, ransac_inliers, prev_desc_matched);
 
@@ -536,7 +542,7 @@ bool ImageProcessor::initializeFirstFeatures(
     return true;
 }
 
-
+//修改
 void ImageProcessor::trackFeatures() {
     // Number of the features before tracking.
     before_tracking = prev_pts_.size();
@@ -550,10 +556,13 @@ void ImageProcessor::trackFeatures() {
 
     // Pridict features in current image
     vector<Point2f> curr_points(prev_pts_.size());
+    //上一帧特征、前后帧相机旋转矩阵、相机内参、当前需要检测的特征的vector
+    //currpoints为上一帧的特征点坐标通过相机旋转矩阵映射到当前帧中
     predictFeatureTracking(
         prev_pts_, R_Prev2Curr, cam_intrinsics, curr_points);
 
-    // Using LK optical flow to track feaures
+    // Using LK optical flow to track feaures（光流法）
+    //trackinliers追踪局内点
     vector<unsigned char> track_inliers(prev_pts_.size());
     calcOpticalFlowPyrLK(
         prev_pyramid_, curr_pyramid_,
@@ -578,12 +587,14 @@ void ImageProcessor::trackFeatures() {
     }  
 
     // Collect the tracked points.
+    //usign longlong int
     vector<FeatureIDType> prev_inImg_ids_(0);
     vector<int> prev_inImg_lifetime_(0);
     vector<Point2f> prev_inImg_points_(0);
     vector<Point2f> curr_inImg_points_(0);
     vector<Point2f> init_inImg_position_(0);
     vector<Mat> prev_imImg_desc_(0);
+    //原始特征序列、局内点标示、输出特征序列（将光流没有追踪上的抛出序列）（生成了6个序列）
     removeUnmarkedElements(   
             pts_ids_, track_inliers, prev_inImg_ids_);
     removeUnmarkedElements(
@@ -676,6 +687,9 @@ void ImageProcessor::trackFeatures() {
     // Mark as outliers if descriptor distance is too large
     vector<int> levels(prev_inImg_points.size(), 0);
     Mat prevDescriptors, currDescriptors;
+    //currdecriptorsptc在processimage中已经确定
+    //描述符存储到currdescriptor中
+    //错误处理
     if (!currORBDescriptor_ptr->computeDescriptors(curr_inImg_points, levels, currDescriptors)) {
         cerr << "error happen while compute descriptors" << endl;
         vector<Point2f>().swap(prev_pts_);
@@ -692,6 +706,7 @@ void ImageProcessor::trackFeatures() {
                 prev_imImg_desc[j], currDescriptors.row(j));
         vDis.push_back(dis);
     }
+    //通过描述符距离判断是否局内点
     vector<unsigned char> desc_inliers(prev_inImg_points.size(), 0);
     for (int i = 0; i < prev_inImg_points.size(); i++) {
         if (vDis[i]<=58)  
@@ -719,6 +734,7 @@ void ImageProcessor::trackFeatures() {
             prev_imImg_desc, desc_inliers, prev_tracked_desc);
 
     // Return if not enough inliers
+    //释放内存
     if ( prev_tracked_points.size()==0 ){
         printf("No feature is tracked after descriptor matching!\n");
         vector<Point2f>().swap(prev_pts_);
@@ -1009,6 +1025,7 @@ void ImageProcessor::findNewFeaturesToBeTracked() {
     cv::Mat mask(curr_img.rows,curr_img.cols,CV_8UC1,255);
     for (const auto& pt : curr_pts_) {
         // int startRow = round(pt.y) - processor_config.patch_size;
+        //round整数
         int startRow = round(pt.y) - processor_config.min_distance;
         startRow = (startRow<0) ? 0 : startRow;
 
@@ -1079,7 +1096,7 @@ void ImageProcessor::getFeatureMsg(MonoCameraMeasurementPtr feature_msg_ptr) {
     vector<Point2f> curr_points_undistorted(0);
     vector<Point2f> init_points_undistorted(0);     
     vector<Point2f> prev_points_undistorted(0);     
-
+    //相机畸变恢复
     undistortPoints(
             curr_pts_, cam_intrinsics, cam_distortion_model,
             cam_distortion_coeffs, curr_points_undistorted);

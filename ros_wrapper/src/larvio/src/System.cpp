@@ -110,7 +110,7 @@ bool System::initialize() {
     return true;
 }
 
-
+//callback部分
 // Push imu msg into the buffer.
 void System::imuCallback(const sensor_msgs::ImuConstPtr& msg) {
     imu_msg_buffer.push_back(ImuData(msg->header.stamp.toSec(),
