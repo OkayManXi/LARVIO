@@ -1,0 +1,621 @@
+In file included from [01m[K/usr/local/include/ceres/internal/parameter_dims.h:37:0[m[K,
+                 from [01m[K/usr/local/include/ceres/internal/autodiff.h:151[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N, Ns...>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:46:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (3, should be 1)
+ struct SumImpl<std::integer_sequence<T, N, Ns...>> {
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N, Ns...>> {
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N1, N2, Ns...>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:51:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (4, should be 1)
+ struct SumImpl<std::integer_sequence<T, N1, N2, Ns...>> {
+[01;32m[K                                                   ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N1, N2, Ns...>> {
+[01;32m[K                                                      ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N1, N2, N3, N4, Ns...>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:59:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (6, should be 1)
+ struct SumImpl<std::integer_sequence<T, N1, N2, N3, N4, Ns...>> {
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N1, N2, N3, N4, Ns...>> {
+[01;32m[K                                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:41:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (2, should be 1)
+ struct SumImpl<std::integer_sequence<T, N>> {
+[01;32m[K                                         ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N>> {
+[01;32m[K                                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct SumImpl<std::integer_sequence<T>> {
+[01;32m[K                                      ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:39:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T>> {
+[01;32m[K                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:135:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+                          std::integer_sequence<T, N, Ns...>,
+[01;32m[K                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:135:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:135:59:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (5, should be 4)
+                          std::integer_sequence<T, N, Ns...>,
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:130:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class T, T Sum, class SeqIn, class SeqOut> struct ceres::internal::ExclusiveScanImpl[m[K’
+ struct ExclusiveScanImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:146:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct ExclusiveScanImpl<T, Sum, std::integer_sequence<T>, SeqOut> {
+[01;32m[K                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:146:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:146:57:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (3, should be 4)
+ struct ExclusiveScanImpl<T, Sum, std::integer_sequence<T>, SeqOut> {
+[01;32m[K                                                         ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:130:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class T, T Sum, class SeqIn, class SeqOut> struct ceres::internal::ExclusiveScanImpl[m[K’
+ struct ExclusiveScanImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+       typename ExclusiveScanImpl<T, T(0), Seq, std::integer_sequence<T>>::Type;
+[01;32m[K                                                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+       typename ExclusiveScanImpl<T, T(0), Seq, std::integer_sequence<T>>::Type;
+[01;32m[K                                                                      ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:16:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier
+       typename ExclusiveScanImpl<T, T(0), Seq, std::integer_sequence<T>>::Type;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:151:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                                                                        ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                                                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<int N, int ...Ts> constexpr const bool ceres::internal::IsValidParameterDimensionSequence[m[K’ redeclared as different kind of symbol
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K          ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconstexpr const bool ceres::internal::IsValidParameterDimensionSequence[m[K’
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K     ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K>[m[K’ token
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K                                        ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:69:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   using Parameters = std::integer_sequence<int, Ns...>;
+[01;32m[K                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:74:52:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KParameters[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KParameters[m[K’ must be available [-fpermissive]
+       IsValidParameterDimensionSequence(Parameters());
+[01;32m[K                                                    ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:74:52:[m[K [01;36m[Knote: [m[K(if you use ‘[01m[K-fpermissive[m[K’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:85:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+       Sum<std::integer_sequence<int, Ns...>>::Value;
+[01;32m[K           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:85:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:85:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+       Sum<std::integer_sequence<int, Ns...>>::Value;
+[01;32m[K                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:101:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+       T* ptr, std::integer_sequence<int, Indices...>) {
+[01;32m[K                    ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:101:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+       T* ptr, std::integer_sequence<int, Indices...>) {
+[01;32m[K                                    ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:[m[K In static member function ‘[01m[Kstatic std::array<T*, ceres::internal::ParameterDims<IsDynamic, Ns>::kNumParameterBlocks> ceres::internal::ParameterDims<IsDynamic, Ns>::GetUnpackedParameters(T*)[m[K’:
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:94:35:[m[K [01;31m[Kerror: [m[K‘[01m[KParameters[m[K’ was not declared in this scope
+     using Offsets = ExclusiveScan<Parameters>;
+[01;32m[K                                   ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:94:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     using Offsets = ExclusiveScan<Parameters>;
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:95:47:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KOffsets[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KOffsets[m[K’ must be available [-fpermissive]
+     return GetUnpackedParameters(ptr, Offsets());
+[01;32m[K                                               ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:152:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:[m[K At global scope:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:53:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+                                  std::integer_sequence<int, Indices...>) {
+[01;32m[K                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:53:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+                                  std::integer_sequence<int, Indices...>) {
+[01;32m[K                                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:66:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+                                  std::integer_sequence<int>) {
+[01;32m[K                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:66:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+                                  std::integer_sequence<int>) {
+[01;32m[K                                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:[m[K In function ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*)[m[K’:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_integer_sequence[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+       std::make_integer_sequence<int, ParameterDims::kNumParameterBlocks>;
+[01;32m[K            ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:80:66:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KParameterBlockIndices[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KParameterBlockIndices[m[K’ must be available [-fpermissive]
+       functor, input, output, IsDynamic(), ParameterBlockIndices());
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:153:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/jet.h:[m[K At global scope:
+[01m[K/usr/local/include/ceres/jet.h:998:8:[m[K [01;31m[Kerror: [m[K‘[01m[KScalarBinaryOpTraits[m[K’ is not a class template
+ struct ScalarBinaryOpTraits<ceres::Jet<T, N>, T, BinaryOp> {
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/jet.h:1002:58:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 3 in template parameter list for ‘[01m[Ktemplate<class BinaryOp, class T, int N> struct Eigen::ScalarBinaryOpTraits[m[K’
+ struct ScalarBinaryOpTraits<T, ceres::Jet<T, N>, BinaryOp> {
+[01;32m[K                                                          ^[m[K
+[01m[K/usr/local/include/ceres/jet.h:1002:58:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Kint[m[K’, got ‘[01m[KBinaryOp[m[K’
+In file included from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/autodiff.h:217:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Make1stOrderPerturbations<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:217:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:217:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Make1stOrderPerturbations<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                                                     ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:232:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Make1stOrderPerturbations<std::integer_sequence<int>,
+[01;32m[K                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:232:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:232:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Make1stOrderPerturbations<std::integer_sequence<int>,
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:282:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Take1stOrderParts<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:282:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:282:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Take1stOrderParts<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                                             ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:298:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Take1stOrderParts<std::integer_sequence<int>, ParameterIdx, Offset> {
+[01;32m[K                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:298:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:298:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Take1stOrderParts<std::integer_sequence<int>, ParameterIdx, Offset> {
+[01;32m[K                                                   ^[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:42:0[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:160:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+                        std::integer_sequence<int, Indices...>) {
+[01;32m[K                             ^[m[K
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:160:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+                        std::integer_sequence<int, Indices...>) {
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:[m[K In member function ‘[01m[Kbool ceres::CostFunctionToFunctor<kNumResiduals, Ns>::operator()(const T*, Ts* ...) const[m[K’:
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:147:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_integer_sequence[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+         std::make_integer_sequence<int, ParameterDims::kNumParameterBlocks>;
+[01;32m[K              ^[m[K
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:149:49:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KIndices[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KIndices[m[K’ must be available [-fpermissive]
+         GetParameterPointers<T>(params, Indices());
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/usr/local/include/ceres/dynamic_numeric_diff_cost_function.h:44:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:48[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:[m[K At global scope:
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:445:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+                                           std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:445:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:445:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                                           std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:490:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+                                           std::integer_sequence<int>,
+[01;32m[K                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:490:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:490:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                                           std::integer_sequence<int>,
+[01;32m[K                                                                    ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:151:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+/usr/local/include/ceres/internal/parameter_dims.h: In instantiation of ‘[01m[Kconstexpr const bool ceres::internal::ParameterDims<false, 4, 3, 3>::kIsValid[m[K’:
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:73:25:[m[K   required from ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+[01m[K/usr/local/include/ceres/sized_cost_function.h:49:47:[m[K   required from ‘[01m[Kclass ceres::SizedCostFunction<2, 4, 3, 3>[m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:154:7:[m[K   required from ‘[01m[Kclass ceres::AutoDiffCostFunction<larvio::ReprojectionError3D, 2, 4, 3, 3>[m[K’
+[01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:63:59:[m[K   required from here
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:74:51:[m[K [01;31m[Kerror: [m[K‘[01m[KParameters[m[K’ was not declared in this scope
+       IsValidParameterDimensionSequence(Parameters());
+[01;32m[K                                                   ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/parameter_dims.h:37:0[m[K,
+                 from [01m[K/usr/local/include/ceres/internal/autodiff.h:151[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N, Ns...>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:46:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (3, should be 1)
+ struct SumImpl<std::integer_sequence<T, N, Ns...>> {
+[01;32m[K                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:64:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N, Ns...>> {
+[01;32m[K                                                 ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N1, N2, Ns...>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:51:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (4, should be 1)
+ struct SumImpl<std::integer_sequence<T, N1, N2, Ns...>> {
+[01;32m[K                                                   ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:71:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N1, N2, Ns...>> {
+[01;32m[K                                                      ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N1, N2, N3, N4, Ns...>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:59:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (6, should be 1)
+ struct SumImpl<std::integer_sequence<T, N1, N2, N3, N4, Ns...>> {
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:78:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N1, N2, N3, N4, Ns...>> {
+[01;32m[K                                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T, N>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:41:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (2, should be 1)
+ struct SumImpl<std::integer_sequence<T, N>> {
+[01;32m[K                                         ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:60:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class Seq> struct ceres::internal::SumImpl[m[K’
+ struct SumImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:85:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T, N>> {
+[01;32m[K                                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct SumImpl<std::integer_sequence<T>> {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct SumImpl<std::integer_sequence<T>> {
+[01;32m[K                                      ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:91:39:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+ struct SumImpl<std::integer_sequence<T>> {
+[01;32m[K                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:135:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+                          std::integer_sequence<T, N, Ns...>,
+[01;32m[K                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:135:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:135:59:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (5, should be 4)
+                          std::integer_sequence<T, N, Ns...>,
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:130:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class T, T Sum, class SeqIn, class SeqOut> struct ceres::internal::ExclusiveScanImpl[m[K’
+ struct ExclusiveScanImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:146:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct ExclusiveScanImpl<T, Sum, std::integer_sequence<T>, SeqOut> {
+[01;32m[K                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:146:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:146:57:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (3, should be 4)
+ struct ExclusiveScanImpl<T, Sum, std::integer_sequence<T>, SeqOut> {
+[01;32m[K                                                         ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:130:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class T, T Sum, class SeqIn, class SeqOut> struct ceres::internal::ExclusiveScanImpl[m[K’
+ struct ExclusiveScanImpl;
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+       typename ExclusiveScanImpl<T, T(0), Seq, std::integer_sequence<T>>::Type;
+[01;32m[K                                                ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+       typename ExclusiveScanImpl<T, T(0), Seq, std::integer_sequence<T>>::Type;
+[01;32m[K                                                                      ^[m[K
+[01m[K/usr/local/include/ceres/internal/integer_sequence_algorithm.h:160:16:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier
+       typename ExclusiveScanImpl<T, T(0), Seq, std::integer_sequence<T>>::Type;
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:151:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                                                                        ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                                                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<int N, int ...Ts> constexpr const bool ceres::internal::IsValidParameterDimensionSequence[m[K’ redeclared as different kind of symbol
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K          ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:44:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconstexpr const bool ceres::internal::IsValidParameterDimensionSequence[m[K’
+ constexpr bool IsValidParameterDimensionSequence(std::integer_sequence<int>) {
+[01;32m[K                ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K     ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:50:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K>[m[K’ token
+     std::integer_sequence<int, N, Ts...>) {
+[01;32m[K                                        ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:69:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   using Parameters = std::integer_sequence<int, Ns...>;
+[01;32m[K                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:74:52:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KParameters[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KParameters[m[K’ must be available [-fpermissive]
+       IsValidParameterDimensionSequence(Parameters());
+[01;32m[K                                                    ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:74:52:[m[K [01;36m[Knote: [m[K(if you use ‘[01m[K-fpermissive[m[K’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:85:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+       Sum<std::integer_sequence<int, Ns...>>::Value;
+[01;32m[K           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:85:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:85:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+       Sum<std::integer_sequence<int, Ns...>>::Value;
+[01;32m[K                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:101:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+       T* ptr, std::integer_sequence<int, Indices...>) {
+[01;32m[K                    ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:101:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+       T* ptr, std::integer_sequence<int, Indices...>) {
+[01;32m[K                                    ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:[m[K In static member function ‘[01m[Kstatic std::array<T*, ceres::internal::ParameterDims<IsDynamic, Ns>::kNumParameterBlocks> ceres::internal::ParameterDims<IsDynamic, Ns>::GetUnpackedParameters(T*)[m[K’:
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:94:35:[m[K [01;31m[Kerror: [m[K‘[01m[KParameters[m[K’ was not declared in this scope
+     using Offsets = ExclusiveScan<Parameters>;
+[01;32m[K                                   ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:94:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     using Offsets = ExclusiveScan<Parameters>;
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:95:47:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KOffsets[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KOffsets[m[K’ must be available [-fpermissive]
+     return GetUnpackedParameters(ptr, Offsets());
+[01;32m[K                                               ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:152:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:[m[K At global scope:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:53:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+                                  std::integer_sequence<int, Indices...>) {
+[01;32m[K                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:53:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+                                  std::integer_sequence<int, Indices...>) {
+[01;32m[K                                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:66:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+                                  std::integer_sequence<int>) {
+[01;32m[K                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:66:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+                                  std::integer_sequence<int>) {
+[01;32m[K                                                       ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:[m[K In function ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*)[m[K’:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:77:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_integer_sequence[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+       std::make_integer_sequence<int, ParameterDims::kNumParameterBlocks>;
+[01;32m[K            ^[m[K
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:80:66:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KParameterBlockIndices[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KParameterBlockIndices[m[K’ must be available [-fpermissive]
+       functor, input, output, IsDynamic(), ParameterBlockIndices());
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:153:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/jet.h:[m[K At global scope:
+[01m[K/usr/local/include/ceres/jet.h:998:8:[m[K [01;31m[Kerror: [m[K‘[01m[KScalarBinaryOpTraits[m[K’ is not a class template
+ struct ScalarBinaryOpTraits<ceres::Jet<T, N>, T, BinaryOp> {
+[01;32m[K        ^[m[K
+[01m[K/usr/local/include/ceres/jet.h:1002:58:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 3 in template parameter list for ‘[01m[Ktemplate<class BinaryOp, class T, int N> struct Eigen::ScalarBinaryOpTraits[m[K’
+ struct ScalarBinaryOpTraits<T, ceres::Jet<T, N>, BinaryOp> {
+[01;32m[K                                                          ^[m[K
+[01m[K/usr/local/include/ceres/jet.h:1002:58:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Kint[m[K’, got ‘[01m[KBinaryOp[m[K’
+In file included from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/autodiff.h:217:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Make1stOrderPerturbations<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:217:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:217:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Make1stOrderPerturbations<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                                                     ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:232:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Make1stOrderPerturbations<std::integer_sequence<int>,
+[01;32m[K                                  ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:232:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:232:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Make1stOrderPerturbations<std::integer_sequence<int>,
+[01;32m[K                                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:282:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Take1stOrderParts<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:282:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:282:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Take1stOrderParts<std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                                             ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:298:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ struct Take1stOrderParts<std::integer_sequence<int>, ParameterIdx, Offset> {
+[01;32m[K                          ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:298:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/autodiff.h:298:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ struct Take1stOrderParts<std::integer_sequence<int>, ParameterIdx, Offset> {
+[01;32m[K                                                   ^[m[K
+In file included from [01m[K/usr/local/include/ceres/ceres.h:42:0[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:160:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::integer_sequence[m[K’ has not been declared
+                        std::integer_sequence<int, Indices...>) {
+[01;32m[K                             ^[m[K
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:160:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+                        std::integer_sequence<int, Indices...>) {
+[01;32m[K                                             ^[m[K
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:[m[K In member function ‘[01m[Kbool ceres::CostFunctionToFunctor<kNumResiduals, Ns>::operator()(const T*, Ts* ...) const[m[K’:
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:147:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_integer_sequence[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+         std::make_integer_sequence<int, ParameterDims::kNumParameterBlocks>;
+[01;32m[K              ^[m[K
+[01m[K/usr/local/include/ceres/cost_function_to_functor.h:149:49:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KIndices[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KIndices[m[K’ must be available [-fpermissive]
+         GetParameterPointers<T>(params, Indices());
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/usr/local/include/ceres/dynamic_numeric_diff_cost_function.h:44:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:48[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:[m[K At global scope:
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:445:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+                                           std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:445:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:445:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                                           std::integer_sequence<int, N, Ns...>,
+[01;32m[K                                                                              ^[m[K
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:490:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+                                           std::integer_sequence<int>,
+[01;32m[K                                           ^[m[K
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:490:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteger_sequence[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[01m[K/usr/local/include/ceres/internal/numeric_diff.h:490:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+                                           std::integer_sequence<int>,
+[01;32m[K                                                                    ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:151:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+/usr/local/include/ceres/internal/parameter_dims.h: In instantiation of ‘[01m[Kconstexpr const bool ceres::internal::ParameterDims<false, 4, 3, 3>::kIsValid[m[K’:
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:73:25:[m[K   required from ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+[01m[K/usr/local/include/ceres/sized_cost_function.h:49:47:[m[K   required from ‘[01m[Kclass ceres::SizedCostFunction<2, 4, 3, 3>[m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:154:7:[m[K   required from ‘[01m[Kclass ceres::AutoDiffCostFunction<larvio::ReprojectionError3D, 2, 4, 3, 3>[m[K’
+[01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:63:59:[m[K   required from here
+[01m[K/usr/local/include/ceres/internal/parameter_dims.h:74:51:[m[K [01;31m[Kerror: [m[K‘[01m[KParameters[m[K’ was not declared in this scope
+       IsValidParameterDimensionSequence(Parameters());
+[01;32m[K                                                   ^[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+/usr/local/include/ceres/internal/autodiff.h: In instantiation of ‘[01m[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 2; ParameterDims = ceres::internal::ParameterDims<false, 4, 3, 3>; Functor = larvio::ReprojectionError3D; T = double][m[K’:
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:210:69:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = larvio::ReprojectionError3D; int kNumResiduals = 2; int ...Ns = {4, 3, 3}][m[K’
+[01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:484:1:[m[K   required from here
+[01m[K/usr/local/include/ceres/internal/autodiff.h:315:56:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KParameters[m[K’ in ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+   using Parameters = typename ParameterDims::Parameters;
+[01;32m[K                                                        ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:348:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KParameters[m[K’ in ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+   Make1stOrderPerturbations<Parameters>::Apply(parameters,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:357:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KParameters[m[K’ in ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+   Take1stOrderParts<Parameters>::Apply(
+[01;32m[K                                       ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:152:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/DynamicInitializer.h:24[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:7[m[K:
+/usr/local/include/ceres/internal/variadic_evaluate.h: In instantiation of ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 4, 3, 3>; Functor = larvio::ReprojectionError3D; T = double][m[K’:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:108:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 4, 3, 3>; Functor = larvio::ReprojectionError3D; T = double][m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:207:55:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = larvio::ReprojectionError3D; int kNumResiduals = 2; int ...Ns = {4, 3, 3}][m[K’
+[01m[K/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp:484:1:[m[K   required from here
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:80:65:[m[K [01;31m[Kerror: [m[K‘[01m[KParameterBlockIndices[m[K’ was not declared in this scope
+       functor, input, output, IsDynamic(), ParameterBlockIndices());
+[01;32m[K                                                                 ^[m[K
+In file included from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130:0[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+/usr/local/include/ceres/internal/autodiff.h: In instantiation of ‘[01m[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 2; ParameterDims = ceres::internal::ParameterDims<false, 4, 3, 3>; Functor = larvio::ReprojectionError3D; T = double][m[K’:
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:210:69:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = larvio::ReprojectionError3D; int kNumResiduals = 2; int ...Ns = {4, 3, 3}][m[K’
+[01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:322:1:[m[K   required from here
+[01m[K/usr/local/include/ceres/internal/autodiff.h:315:56:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KParameters[m[K’ in ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+   using Parameters = typename ParameterDims::Parameters;
+[01;32m[K                                                        ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:348:47:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KParameters[m[K’ in ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+   Make1stOrderPerturbations<Parameters>::Apply(parameters,
+[01;32m[K                                               ^[m[K
+[01m[K/usr/local/include/ceres/internal/autodiff.h:357:39:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KParameters[m[K’ in ‘[01m[Kclass ceres::internal::ParameterDims<false, 4, 3, 3>[m[K’
+   Take1stOrderParts<Parameters>::Apply(
+[01;32m[K                                       ^[m[K
+In file included from [01m[K/usr/local/include/ceres/internal/autodiff.h:152:0[m[K,
+                 from [01m[K/usr/local/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/local/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/ros_wrapper/src/larvio/../../../include/Initializer/initial_sfm.h:11[m[K,
+                 from [01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:7[m[K:
+/usr/local/include/ceres/internal/variadic_evaluate.h: In instantiation of ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 4, 3, 3>; Functor = larvio::ReprojectionError3D; T = double][m[K’:
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:108:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 4, 3, 3>; Functor = larvio::ReprojectionError3D; T = double][m[K’
+[01m[K/usr/local/include/ceres/autodiff_cost_function.h:207:55:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = larvio::ReprojectionError3D; int kNumResiduals = 2; int ...Ns = {4, 3, 3}][m[K’
+[01m[K/home/zty/workspace/LARVIO/src/initial_sfm.cpp:322:1:[m[K   required from here
+[01m[K/usr/local/include/ceres/internal/variadic_evaluate.h:80:65:[m[K [01;31m[Kerror: [m[K‘[01m[KParameterBlockIndices[m[K’ was not declared in this scope
+       functor, input, output, IsDynamic(), ParameterBlockIndices());
+[01;32m[K                                                                 ^[m[K
+make[2]: *** [CMakeFiles/dynamicInitializer.dir/home/zty/workspace/LARVIO/src/DynamicInitializer.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/dynamicInitializer.dir/home/zty/workspace/LARVIO/src/initial_sfm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dynamicInitializer.dir/all] Error 2
+make: *** [all] Error 2

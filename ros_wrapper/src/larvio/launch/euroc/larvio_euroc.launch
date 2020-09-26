@@ -13,7 +13,7 @@
       <param name="fixed_frame_id" value="$(arg fixed_frame_id)"/>
       <param name="child_frame_id" value="odom"/>
 
-      <remap from="~imu" to="/imu0"/>
+      <remap from="~imu" to="/imu_camera"/>
       <remap from="~cam0_image" to="/cam0/image_raw"/>
 
       <param name="config_file" value="$(find larvio)/../../../config/euroc.yaml"/>

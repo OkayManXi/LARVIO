@@ -1,0 +1,7 @@
+[01m[K/home/zty/workspace/LARVIO/src/image_processor.cpp:[m[K In member function ‘[01m[Kvoid larvio::ImageProcessor::publish()[m[K’:
+[01m[K/home/zty/workspace/LARVIO/src/image_processor.cpp:1193:14:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+     cout<<std.setfixed()<<std::setprecision(13)<<curr_img_time<<" ";
+[01;32m[K              ^[m[K
+make[2]: *** [CMakeFiles/image_processor.dir/home/zty/workspace/LARVIO/src/image_processor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/image_processor.dir/all] Error 2
+make: *** [all] Error 2

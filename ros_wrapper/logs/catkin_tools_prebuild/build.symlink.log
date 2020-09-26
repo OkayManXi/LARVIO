@@ -1,0 +1,12 @@
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./setup.sh
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./local_setup.bash
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./cmake.lock
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./env.sh
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./local_setup.zsh
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./local_setup.sh
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./setup.bash
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./_setup_util.py
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/./setup.zsh
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/pkgconfig/catkin_tools_prebuild.pc

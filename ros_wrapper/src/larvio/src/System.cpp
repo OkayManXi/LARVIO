@@ -116,6 +116,11 @@ void System::imuCallback(const sensor_msgs::ImuConstPtr& msg) {
     imu_msg_buffer.push_back(ImuData(msg->header.stamp.toSec(),
             msg->angular_velocity.x, msg->angular_velocity.y, msg->angular_velocity.z,
             msg->linear_acceleration.x, msg->linear_acceleration.y, msg->linear_acceleration.z));
+    /*
+    ofstream imushuju("/home/zty/workspace/LARVIO/results/imucamera.txt",ios::app);
+    imushuju<<fixed<<setprecision(13)<<msg->header.stamp.toSec()<<" "<<msg->linear_acceleration.x<<" "<< msg->linear_acceleration.y<<" "<< msg->linear_acceleration.z<<endl;
+    imushuju.close();
+    */
 }
 
 

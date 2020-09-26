@@ -1146,6 +1146,10 @@ void ImageProcessor::getFeatureMsg(MonoCameraMeasurementPtr feature_msg_ptr) {
 
 
 void ImageProcessor::publish() {
+
+    //记录时间和特征点数量
+    //std::ofstream outfile(("/home/zty/workspace/LARVIO/results/cameraimu.txt"),std::ios::app);
+
     // Colors for different features.
     Scalar tracked(255, 0, 0);
     Scalar new_feature(0, 255, 0);
@@ -1179,8 +1183,17 @@ void ImageProcessor::publish() {
 
             prev_points.erase(id);
             curr_points.erase(id);
+
         }
     }
+
+    //时间
+    /*
+    double curr_image_time=curr_img_ptr->timeStampToSec;
+    int features_num=curr_pts_.size();
+    outfile<<std::fixed<<std::setprecision(13)<<curr_img_time<<" "<<std::setprecision(1)<<features_num<<endl;
+    cout<<features_num<<endl;
+    */
 
     visual_img = out_img;
 

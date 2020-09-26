@@ -1,0 +1,10 @@
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/share/larvio/cmake/larvioConfig.cmake
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/share/larvio/cmake/larvioConfig-version.cmake
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libsystem_manager.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libestimator.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libstaticInitializer.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libdynamicInitializer.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libflexibleInitializer.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libimage_processor.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/libsystem_manager_nodelet.so
+Symlinking /home/zty/workspace/LARVIO/ros_wrapper/devel/lib/pkgconfig/larvio.pc
